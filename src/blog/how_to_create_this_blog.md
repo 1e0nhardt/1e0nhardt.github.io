@@ -13,6 +13,7 @@ category:
 tag:
   - vuepress
   - git
+description: 记录创建此博客用到的命令和遇到的问题
 ---
 
 # 此博客的诞生

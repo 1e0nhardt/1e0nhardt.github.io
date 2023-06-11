@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/how_to_create_this_blog.md",
+                "file": "templates/fontmatter.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/how_to_create_this_blog.md",
+                "file": "templates/fontmatter.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/how_to_create_this_blog.md",
+                "file": "templates/fontmatter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/how_to_create_this_blog.md"
+                "file": "templates/fontmatter.md"
               }
             }
           }
@@ -149,9 +149,11 @@
   },
   "active": "e52574e2c63b8d77",
   "lastOpenFiles": [
+    "blog/how_to_create_this_blog.md",
+    "templates/fontmatter.md",
+    "templates",
     "programming/rich 终端输出美化库.md",
     "ai/StableDiffusion.md",
-    "blog/how_to_create_this_blog.md",
     "misc/Windows脚本小知识.md",
     "assets/images/StableDiffusion_16.png",
     "assets/images/StableDiffusion_15.png",
@@ -165,7 +167,6 @@
     "assets/images/StableDiffusion_10.png",
     "assets/images/StableDiffusion_9.png",
     "assets/images/StableDiffusion_8.png",
-    "templates/fontmatter.md",
     "ai",
     "misc",
     "programming",
@@ -174,7 +175,6 @@
     "posts/cherry.md",
     "blog/中文文件名.md",
     "slides.md",
-    "templates",
     "未命名.md",
     "assets/images",
     "assets",

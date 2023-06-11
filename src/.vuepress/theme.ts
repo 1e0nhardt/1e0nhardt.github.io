@@ -89,7 +89,9 @@ export default hopeTheme({
   },
 
   plugins: {
-    blog: true,
+    blog: {
+      excerptLength: 0,
+    },
 
     components: {
       components: [

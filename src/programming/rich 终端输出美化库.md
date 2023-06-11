@@ -10,6 +10,7 @@ category:
   - programming
 tag:
   - python
+description: 颜值超高的python命令行输出美化工具
 ---
 
 # rich 终端输出美化库

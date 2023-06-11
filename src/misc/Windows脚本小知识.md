@@ -10,6 +10,7 @@ category:
   - misc
 tag:
   - windows
+description: Windows脚本小知识
 ---
 
 # Windows脚本小知识

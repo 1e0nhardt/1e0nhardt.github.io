@@ -11,6 +11,7 @@ category:
   - ai
 tag:
   - StableDiffusion
+description: 李宏毅讲StableDiffusion原理视频的学习笔记
 ---
 
 # StableDiffusion
