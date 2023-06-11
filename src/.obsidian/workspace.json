@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "1f8b98e12acf1cef",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a022860f07eb910",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e52574e2c63b8d77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/fontmatter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dc74bfb2fcf136df",
+    "type": "split",
+    "children": [
+      {
+        "id": "48be1a50b2240466",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cabcf52a7a789af9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c84074ea1fa5d49",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "df1297e56f7daa81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "416621c61605c12e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c8674b27cd70b98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ece7ae542315431",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "templates/fontmatter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "062c342ecc64f025",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "templates/fontmatter.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d036ed5afd21c4cf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "85e9b4b18055be65",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "templates/fontmatter.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "e52574e2c63b8d77",
+  "lastOpenFiles": [
+    "blog/中文文件名.md",
+    "intro.md",
+    "templates/fontmatter.md",
+    "README.md",
+    "slides.md",
+    "templates",
+    "assets/images/lucio.png",
+    "assets/images/intro_1.png",
+    "blog/how_to_create_this_blog.md",
+    "assets/images/Pasted image 20230611115930.png",
+    "未命名.md",
+    "assets/images",
+    "Pasted image 20230611115905.png",
+    "assets",
+    "Pasted image 20230611115821.png",
+    "Pasted image 20230611115615.png",
+    "images/Pasted image 20230611112226.png",
+    "images",
+    "Pasted image 20230611110031.png",
+    "Pasted image 20230611105506.png.md",
+    "Pasted image 20230611105506.png"
+  ]
+}

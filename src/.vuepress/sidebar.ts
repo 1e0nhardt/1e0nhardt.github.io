@@ -5,6 +5,7 @@ export default sidebar({
   // "structure"会自动将路径对应的文件夹下的所有文件名填入
   // 文件夹路径要以/结尾
   // ""对应README文件
+  // 默认的标题不是文件名而是md中的一级标题
   "/": [
     "", // 主页
     {
@@ -24,5 +25,6 @@ export default sidebar({
     "slides",
   ],
   "/demo/": "structure",
-  "/posts/": "structure"
+  "/posts/": "structure",
+  "/blog/": "structure",
 });

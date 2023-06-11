@@ -1,6 +1,7 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
+comment: false
 ---
 
 # 介绍页
@@ -14,6 +15,7 @@ cover: /assets/images/cover3.jpg
     - SD
     - 其他有趣的项目
 - 博客
+    - 部署步骤记录
 - 编程相关
 - 其他技能
     - unity
@@ -23,3 +25,7 @@ cover: /assets/images/cover3.jpg
 ## 功能
 - 反应怎么添加
 - 文章禁用评论
+
+
+![](/assets/images/intro_1.png)
+

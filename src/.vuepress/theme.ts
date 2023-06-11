@@ -18,6 +18,10 @@ export default hopeTheme({
   repoDisplay: false,
 
   docsDir: "src",
+  // 全局禁用博客不需要的显示在页面末尾的编辑链接，贡献者，贡献时间
+  lastUpdated: false,
+  editLink: false,
+  contributors: false,
 
   // navbar
   navbar,

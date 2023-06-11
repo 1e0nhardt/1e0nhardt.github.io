@@ -1,0 +1,8 @@
+{
+  "attachmentFolderPath": "assets/images",
+  "newFileLocation": "current",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "showUnsupportedFiles": false
+}

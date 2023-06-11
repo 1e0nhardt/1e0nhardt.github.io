@@ -8,6 +8,7 @@ export default navbar([
   "/", // /README.md
   "/demo/", // /demo/README.md title为navbar显示的名称
   "/posts/",
+  "/blog/",
   { // 下拉列表的navbar，直接导航到link的md
     text: "博文",
     icon: "pen-to-square",
