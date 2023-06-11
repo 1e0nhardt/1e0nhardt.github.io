@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/fontmatter.md",
+                "file": "blog/how_to_create_this_blog.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,9 +86,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/fontmatter.md",
+                "file": "blog/how_to_create_this_blog.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/fontmatter.md",
+                "file": "blog/how_to_create_this_blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,49 +126,59 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/fontmatter.md"
+                "file": "blog/how_to_create_this_blog.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "daily-notes:打开/创建今天的日记": true,
+      "command-palette:打开命令面板": false,
+      "templates:插入模板": false
     }
   },
   "active": "e52574e2c63b8d77",
   "lastOpenFiles": [
-    "blog/中文文件名.md",
-    "intro.md",
-    "templates/fontmatter.md",
+    "programming/rich 终端输出美化库.md",
+    "ai/StableDiffusion.md",
+    "blog/how_to_create_this_blog.md",
+    "misc/Windows脚本小知识.md",
+    "assets/images/StableDiffusion_16.png",
+    "assets/images/StableDiffusion_15.png",
+    "assets/images/StableDiffusion_14.png",
+    "assets/images/StableDiffusion_13.png",
+    "assets/images/StableDiffusion_12.png",
+    "assets/images/StableDiffusion_11.png",
     "README.md",
+    "intro.md",
+    "assets/images/StableDiffusion_11.png",
+    "assets/images/StableDiffusion_10.png",
+    "assets/images/StableDiffusion_9.png",
+    "assets/images/StableDiffusion_8.png",
+    "templates/fontmatter.md",
+    "ai",
+    "misc",
+    "programming",
+    "AI/programming",
+    "AI",
+    "posts/cherry.md",
+    "blog/中文文件名.md",
     "slides.md",
     "templates",
-    "assets/images/lucio.png",
-    "assets/images/intro_1.png",
-    "blog/how_to_create_this_blog.md",
-    "assets/images/Pasted image 20230611115930.png",
     "未命名.md",
     "assets/images",
-    "Pasted image 20230611115905.png",
     "assets",
-    "Pasted image 20230611115821.png",
-    "Pasted image 20230611115615.png",
-    "images/Pasted image 20230611112226.png",
     "images",
-    "Pasted image 20230611110031.png",
-    "Pasted image 20230611105506.png.md",
-    "Pasted image 20230611105506.png"
+    "Pasted image 20230611105506.png.md"
   ]
 }

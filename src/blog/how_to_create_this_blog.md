@@ -50,8 +50,8 @@ tag:
 	3. git push -u origin main
 
 ### 修改workflow文件
-按以上步骤上传项目到GitHub后，GitHub Action会自动开始部署。但我遇到了一个错误
-![](/assets/images/how_to_create_this_blog_4.png)解决方法为在.github/workflows/deploy-docs.yml的第23行后指定version(`pnpm -v`查看)
+按以上步骤上传项目到GitHub后，GitHub Action会自动开始部署。但我遇到了一个错误  
+![](/assets/images/how_to_create_this_blog_4.png)解决方法为在.github/workflows/deploy-docs.yml的第23行后指定version(`pnpm -v`查看)  
 ```
 name: 安装 pnpm
 uses: pnpm/action-setup@v2
@@ -67,11 +67,11 @@ with:
 :::
 
 打开username.github.io仓库
-进入Settings->Actions->General后，滑动到底部，然后
-![](/assets/images/how_to_create_this_blog_1.png)选择以下两个选项，点击保存。
+进入Settings->Actions->General后，滑动到底部，然后  
+![](/assets/images/how_to_create_this_blog_1.png)选择以下两个选项，点击保存。  
 ![](/assets/images/how_to_create_this_blog_2.png)
 ### 设置GitHub Pages部署时使用的分支
-进入Settings->Pages, 将部署的分支从main改为gh-pages
+进入Settings->Pages, 将部署的分支从main改为gh-pages  
 ![](/assets/images/how_to_create_this_blog_3.png)
 
 [^1]: 使用corepack安装有问题，会一直卡住，无法安装。所以改用npm安装。

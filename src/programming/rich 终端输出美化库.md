@@ -16,7 +16,7 @@ tag:
 ## 进度条
 ### 自定义进度条
 ```python
-improt time
+import time
 from rich.progress import Progress
 
 # 1.创建管理进度条的对象
