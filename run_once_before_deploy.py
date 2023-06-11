@@ -28,7 +28,8 @@ def add_slash_to_image_links(filename):
     for line in lines:
         if line.lstrip().startswith('![') and '(' in line:
             parts = line.split('(')
-            if parts[1].startswith("/"): # 已经以/开头了，则不变
+            if not parts[1].startswith("assets"): # 已经以/开头了，或是来源于网络的图片等，则不变
+                modified_lines.append(line)
                 continue
             image_link = parts[1].strip()
             modified_link = '/' + image_link

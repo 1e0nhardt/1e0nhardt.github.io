@@ -1,12 +1,16 @@
 ---
 icon: pen-to-square
 isOriginal: true
-date: 2023-06-11
+#author: Ms.Hope
+date: {{date:YYYY-MM-DD}}
+sticky: false
+star: false
+comment: true
 category:
   - blog
 tag:
   - vuepress
-  - git
 ---
 
-# 
+# {{title}}
+

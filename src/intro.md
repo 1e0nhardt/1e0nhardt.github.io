@@ -22,10 +22,3 @@ comment: false
     - shader
     - blender
 
-## 功能
-- 反应怎么添加
-- 文章禁用评论
-
-
-![](/assets/images/intro_1.png)
-
