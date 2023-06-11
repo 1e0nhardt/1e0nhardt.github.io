@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as r,e}from"./app-a376c63a.js";const a={},c=e("h1",{id:"",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#","aria-hidden":"true"},"#")],-1),n=[c];function s(_,d){return o(),r("div",null,n)}const h=t(a,[["render",s],["__file","fontmatter.html.vue"]]);export{h as default};
