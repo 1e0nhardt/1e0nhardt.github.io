@@ -1,0 +1,25 @@
+---
+icon: circle-info
+cover: /assets/images/cover3.jpg
+---
+
+# 介绍页
+
+我是谁???
+
+## 博客规划
+- AI专区
+    - NeRF
+    - ST
+    - SD
+    - 其他有趣的项目
+- 博客
+- 编程相关
+- 其他技能
+    - unity
+    - shader
+    - blender
+
+## 功能
+- 反应怎么添加
+- 文章禁用评论
