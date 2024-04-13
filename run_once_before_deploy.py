@@ -35,7 +35,7 @@ def add_slash_to_image_links(filename):
             modified_link = '/' + image_link
             modified_line = parts[0] + '(' + modified_link
             modified_lines.append(modified_line)
-            print(f'{line}->{modified_line}')
+            print(f'{line.strip()}->{modified_line}')
             modifed_flag = True
         else:
             modified_lines.append(line)

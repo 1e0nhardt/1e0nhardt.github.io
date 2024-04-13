@@ -6,5 +6,6 @@ import { sidebar } from "vuepress-theme-hope";
 // 默认的标题不是文件名而是md中的一级标题
 export default sidebar({
   "/blog/": "structure",
-  "/godot/": "structure",
+  "/gamedev/": "structure",
+  "/notes/": "structure",
 });

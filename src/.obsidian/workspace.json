@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game/Godot/Godot组件与基本使用方法.md",
+                "file": "templates/fontmatter.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game/Godot/Godot组件与基本使用方法.md",
+                "file": "templates/fontmatter.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game/Godot/Godot组件与基本使用方法.md",
+                "file": "templates/fontmatter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game/Godot/Godot组件与基本使用方法.md"
+                "file": "templates/fontmatter.md"
               }
             }
           },
@@ -162,6 +162,10 @@
   },
   "active": "c56b5cc30acf203b",
   "lastOpenFiles": [
+    "notes/博弈论/博弈论02.md",
+    "templates/fontmatter.md",
+    "templates",
+    "notes/博弈论/博弈论01.md",
     "game/Godot/使用Godot中遇到的问题.md",
     "game/博弈论00.md",
     "game/Godot/Godot组件与基本使用方法.md",
@@ -177,7 +181,6 @@
     "blog/思考.md",
     "blog/笔记.md",
     "programming/toolkit.md",
-    "templates/fontmatter.md",
     "从零开始写一个简单编译器.md",
     "大语言模型.md",
     "计算机角色动画.md",
@@ -186,8 +189,6 @@
     "名言警句.md",
     "intro.md",
     "README.md",
-    "misc/Windows脚本小知识.md",
-    "misc/Whisper制作双语字幕.md",
     "game/Godot",
     "assets/images/从零开始写一个简单编译器_4.png",
     "assets/images/从零开始写一个简单编译器_3.png",
@@ -204,7 +205,6 @@
     "ai/stable_diffusion",
     "ai/knowledge",
     "ai/papers",
-    "templates",
     "ai",
     "misc",
     "programming"

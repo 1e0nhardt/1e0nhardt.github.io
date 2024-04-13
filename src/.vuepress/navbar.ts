@@ -12,8 +12,13 @@ export default navbar([
     link: "/blog/"
   },
   {
-    text: "Godot",
-    icon: "pen-to-square",
-    link: "/godot/"
+    text: "游戏开发",
+    icon: "toolbox",
+    link: "/gamedev/"
+  },
+  {
+    text: "学习笔记",
+    icon: "marker",
+    link: "/notes/"
   },
 ]);

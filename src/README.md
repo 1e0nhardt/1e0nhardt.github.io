@@ -3,9 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: 我的主页
+bgImage: /assets/images/cover3.jpg
 heroImage: /assets/icon/guide-maskable.png
 heroText: Leonhardt's Blog
-heroFullScreen: true
+heroFullScreen: false
 tagline: 吾生也有涯，而知也无涯
 projects:
   - icon: project
@@ -13,20 +14,15 @@ projects:
     desc: 博客使用主题的详细文档
     link: https://theme-hope.vuejs.press/zh/
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: article
+    name: Shader教程
+    desc: iquilezles大佬的教程文章
+    link: https://iquilezles.org/articles/
 
   - icon: book
     name: 书籍名称
     desc: 书籍详细描述
     link: https://你的书籍链接
-
-  # - icon: article
-  #   name: 文章名称
-  #   desc: 文章详细描述
-  #   link: https://你的文章链接
 
   - icon: friend
     name: 伙伴名称
