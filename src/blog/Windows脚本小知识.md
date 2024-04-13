@@ -7,7 +7,7 @@ comment: true
 sticky: false
 star: false
 category:
-  - misc
+  - blog
 tag:
   - windows
 description: Windows脚本小知识

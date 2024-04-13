@@ -4,14 +4,14 @@ layout: BlogHome
 icon: home
 title: 我的主页
 heroImage: /assets/icon/guide-maskable.png
-heroText: 主标题
+heroText: Leonhardt's Blog
 heroFullScreen: true
 tagline: 吾生也有涯，而知也无涯
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: 主题文档
+    desc: 博客使用主题的详细文档
+    link: https://theme-hope.vuejs.press/zh/
 
   - icon: link
     name: 链接名称

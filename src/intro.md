@@ -9,16 +9,9 @@ comment: false
 我是谁???
 
 ## 博客规划
-- AI专区
-    - NeRF
-    - ST
-    - SD
-    - 其他有趣的项目
+
 - 博客
-    - 部署步骤记录
-- 编程相关
-- 其他技能
-    - unity
-    - shader
-    - blender
+    - 杂七杂八
+- Godot
+- 计算机
 

@@ -12,39 +12,44 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope", // 右上角的Github图标连接地址
-  repoDisplay: false,
+  repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
+
   // 全局禁用博客不需要的显示在页面末尾的编辑链接，贡献者，贡献时间
   lastUpdated: false,
   editLink: false,
   contributors: false,
 
-  // navbar
+  // 导航栏
   navbar,
 
-  // sidebar
+  // 侧边栏
   sidebar,
 
-  footer: "想，都是问题。做，才是答案。", // 默认页脚
-
+  // 页脚
+  footer: "想，都是问题。做，才是答案。",
   displayFooter: true,
 
+  // 博客相关
   blog: {
     avatar: "/assets/bochi.png",
     roundAvatar: true,
     name:"Leonhardt",
-    description: "一个独立研究者",
+    description: "一个人",
     intro: "/intro.html",
+    timeline: "昨日不在",
+    articlePerPage: 5,
+    articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "Word"],
     medias: {
       GitHub: "https://github.com/1e0nhardt",
       BiliBili: "https://space.bilibili.com/8351880?spm_id_from=333.1007.0.0",
       Gmail: "mailto:hukigane@gmail.com",
       Zhihu: "https://www.zhihu.com/people/jiang-hua-36-24",
       // Baidu: "https://example.com",
+      // BiliBili: "https://example.com",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
@@ -54,7 +59,9 @@ export default hopeTheme({
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
+      // GitHub: "https://example.com",
       // Gitlab: "https://example.com",
+      // Gmail: "mailto:info@example.com",
       // Instagram: "https://example.com",
       // Lark: "https://example.com",
       // Lines: "https://example.com",
@@ -71,65 +78,54 @@ export default hopeTheme({
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
+      // Zhihu: "https://example.com",
     },
-    timeline: "昨日不在",
-    articlePerPage: 5,
-    articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "Word"],
   },
 
-  encrypt: { // 为特定文章，一个路径下的文章加密。
+  // 加密配置
+  encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
     },
   },
 
-  // page meta
+  // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
 
+  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
+  // hotReload: true,
+
+  // 在这里配置主题提供的插件
   plugins: {
     blog: {
       excerptLength: 0,
     },
 
+    // 启用之前需安装 @waline/client
+    // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://waline-comment.vuejs.press",
+    // },
+
     components: {
-      components: [
-        "AudioPlayer",
-        "Badge",
-        "BiliBili",
-        "YouTube"
-      ],
+      components: ["Badge", "VPCard", "VidStack", "BiliBili"],
     },
 
-    comment: {
-      comment: true,
-      // You should generate and use your own comment service
-      provider: "Waline",
-      serverURL: "https://blog-30fqba0fv-1e0nhardt.vercel.app/",
-    },
-
-    // all features are enabled for demo, only preserve features you need here
+    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
       codetabs: true,
+      component: true,
       demo: true,
-      echarts: true,
       figure: true,
-      flowchart: true,
-      gfm: true,
       imgLazyload: true,
       imgSize: true,
       include: true,
-      katex: true,
       mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",
@@ -146,11 +142,49 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
+      tasklist: true,
       vPre: true,
-      vuePlayground: true,
+
+      // 在启用之前安装 chart.js
+      chart: true,
+
+      // insert component easily
+
+      // 在启用之前安装 echarts
+      echarts: true,
+
+      // 在启用之前安装 flowchart.ts
+      flowchart: true,
+
+      // gfm requires mathjax-full to provide tex support
+      gfm: true,
+
+      // 在启用之前安装 katex
+      katex: true,
+
+      // 在启用之前安装 mathjax-full
+      // mathjax: true,
+
+      // 在启用之前安装 mermaid
+      mermaid: true,
+
+      // playground: {
+      //   presets: ["ts", "vue"],
+      // },
+
+      // 在启用之前安装 reveal.js
+      revealJs: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+      },
+
+      // 在启用之前安装 @vue/repl
+      // vuePlayground: true,
+
+      // install sandpack-vue3 before enabling it
+      // sandpack: true,
     },
 
-    // uncomment these if you want a PWA
+    // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,

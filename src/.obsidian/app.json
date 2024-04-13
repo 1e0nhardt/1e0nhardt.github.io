@@ -4,5 +4,6 @@
   "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
   "promptDelete": false,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "readableLineLength": true
 }
