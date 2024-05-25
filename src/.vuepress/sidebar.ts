@@ -7,5 +7,6 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/blog/": "structure",
   "/gamedev/": "structure",
-  "/notes/": "structure",
+  "/gameengine/": "structure",
+  "/notes/": "structure"
 });

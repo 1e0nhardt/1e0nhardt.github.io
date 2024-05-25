@@ -13,8 +13,13 @@ export default navbar([
   },
   {
     text: "游戏开发",
-    icon: "toolbox",
+    icon: "gamepad",
     link: "/gamedev/"
+  },
+  {
+    text: "游戏引擎",
+    icon: "toolbox",
+    link: "/gameengine/"
   },
   {
     text: "学习笔记",

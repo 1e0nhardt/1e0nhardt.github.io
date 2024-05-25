@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 我的主页
-bgImage: /assets/images/cover3.jpg
+bgImage: /assets/dawn.jpg
 heroImage: /assets/icon/guide-maskable.png
 heroText: Leonhardt's Blog
 heroFullScreen: false
@@ -20,9 +20,9 @@ projects:
     link: https://iquilezles.org/articles/
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: OpenGL
+    desc: OpenGL教程
+    link: https://learnopengl-cn.github.io/
 
   - icon: friend
     name: 伙伴名称

@@ -154,6 +154,7 @@ export default hopeTheme({
       // 在启用之前安装 reveal.js
       revealJs: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
+        themes: ["auto", "serif", "black"]
       },
 
       // 在启用之前安装 @vue/repl
